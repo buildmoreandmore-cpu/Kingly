@@ -28,9 +28,9 @@ const Hero: React.FC = () => {
       <div className="w-full md:w-1/2 relative bg-neutral-warm">
         <div className="absolute inset-0 flex items-end justify-center">
           <img 
-            src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800" 
+            src="/camisha-alford.png" 
             alt="Camisha Alford" 
-            className="h-full w-full object-cover object-center grayscale-[0.2]"
+            className="h-full w-full object-cover object-top"
           />
         </div>
         
