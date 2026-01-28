@@ -36,7 +36,7 @@ const TargetIcon = () => (
 
 const milestones = [
   {
-    year: "17 Years",
+    year: "The Foundation",
     title: "Case Management Trenches",
     desc: "Built deep expertise handling complex files, deadlines, and high-pressure legal environments.",
     icon: <BriefcaseIcon />
