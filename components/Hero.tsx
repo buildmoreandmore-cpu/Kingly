@@ -34,8 +34,8 @@ const Hero: React.FC = () => {
           />
         </div>
         
-        {/* Bio Tag - Floating over the neutral background area */}
-        <div className="absolute top-[15%] left-0 bg-[#E8E2D9] p-8 lg:p-12 w-[80%] max-w-sm shadow-sm">
+        {/* Bio Tag - Positioned at bottom */}
+        <div className="absolute bottom-8 left-0 bg-[#E8E2D9] p-6 lg:p-8 w-[85%] max-w-md shadow-sm">
           <h3 className="text-xl font-bold text-gray-900 mb-1">Camisha Alford</h3>
           <p className="text-gray-600 text-sm font-medium tracking-wide uppercase">Founder, Kingly Consulting LLC | AI Legal Ops</p>
         </div>
