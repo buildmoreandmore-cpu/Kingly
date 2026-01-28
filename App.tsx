@@ -26,7 +26,6 @@ import Services from './components/Services';
 import Difference from './components/Difference';
 import ROICalculator from './components/ROICalculator';
 import AuditForm from './components/AuditForm';
-import SocialProof from './components/SocialProof';
 import Footer from './components/Footer';
 
 const App: React.FC = () => {
@@ -53,7 +52,6 @@ const App: React.FC = () => {
         <Services />
         <ROICalculator />
         <Difference />
-        <SocialProof />
         <AuditForm />
       </main>
 
