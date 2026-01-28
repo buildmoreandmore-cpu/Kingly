@@ -1,31 +1,63 @@
 
 import React from 'react';
-import { Award, Briefcase, Zap, Star } from 'lucide-react';
+
+// Custom SVG Icons
+const BriefcaseIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+  </svg>
+);
+
+const LightbulbIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M9 18h6"/>
+    <path d="M10 22h4"/>
+    <path d="M12 2a7 7 0 0 0-4 12.9V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.1A7 7 0 0 0 12 2z"/>
+  </svg>
+);
+
+const UsersIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+    <circle cx="9" cy="7" r="4"/>
+    <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+  </svg>
+);
+
+const TargetIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <circle cx="12" cy="12" r="10"/>
+    <circle cx="12" cy="12" r="6"/>
+    <circle cx="12" cy="12" r="2"/>
+  </svg>
+);
 
 const milestones = [
   {
     year: "17 Years",
     title: "Case Management Trenches",
     desc: "Built deep expertise handling complex files, deadlines, and high-pressure legal environments.",
-    icon: <Briefcase />
+    icon: <BriefcaseIcon />
   },
   {
     year: "Turning Point",
     title: "The AI Discovery",
     desc: "Discovered that AI could eliminate 60-80% of tedious, repetitive manual tasks.",
-    icon: <Zap />
+    icon: <LightbulbIcon />
   },
   {
     year: "Growth",
     title: "Subrogation Supervisor",
     desc: "Managed a team of 30+ employees, implementing optimized digital systems for massive scale.",
-    icon: <Award />
+    icon: <UsersIcon />
   },
   {
     year: "Today",
     title: "Helping You Win",
     desc: "Taking that decade of lived experience to help modern law firms thrive through AI.",
-    icon: <Star />
+    icon: <TargetIcon />
   }
 ];
 
