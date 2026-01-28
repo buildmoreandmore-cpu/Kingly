@@ -71,17 +71,17 @@ const ROICalculator: React.FC = () => {
             </div>
           </div>
 
-          <div className="lg:w-1/2 p-10 lg:p-14 bg-navy-dark text-white flex flex-col justify-center">
-            <h4 className="text-xl font-bold mb-10 text-slate-400">YOUR POTENTIAL RECOVERY:</h4>
-            
+          <div className="lg:w-1/2 p-10 lg:p-14 bg-[#1A2B4A] text-white flex flex-col justify-center">
+            <h4 className="text-xl font-bold mb-10 text-white uppercase tracking-widest">Your Potential Recovery:</h4>
+
             <div className="space-y-12">
               <div className="flex items-center gap-6">
                  <div className="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center">
                     <Clock size={32} className="text-[#C9A961]" />
                  </div>
                  <div>
-                    <span className="text-sm font-bold text-slate-500 uppercase">Monthly Time Lost</span>
-                    <p className="text-3xl font-bold">{monthlyLostHours} Hours</p>
+                    <span className="text-sm font-bold text-gray-300 uppercase">Monthly Time Lost</span>
+                    <p className="text-3xl font-bold text-white">{monthlyLostHours} Hours</p>
                  </div>
               </div>
 
@@ -90,7 +90,7 @@ const ROICalculator: React.FC = () => {
                     <DollarSign size={32} className="text-white" />
                  </div>
                  <div>
-                    <span className="text-sm font-bold text-slate-400 uppercase">Annual Productivity Drain</span>
+                    <span className="text-sm font-bold text-gray-300 uppercase">Annual Productivity Drain</span>
                     <p className="text-4xl lg:text-5xl font-bold text-[#C9A961] tracking-tight">
                       ${yearlyCost.toLocaleString()}
                     </p>
@@ -98,9 +98,9 @@ const ROICalculator: React.FC = () => {
               </div>
             </div>
 
-            <div className="mt-12 pt-10 border-t border-white/10">
-              <p className="text-slate-400 mb-6 italic">"You aren't just losing money; you're losing the ability to focus on high-value litigation. Let's reclaim that time."</p>
-              <a href="#audit" className="inline-flex items-center justify-center w-full bg-white text-navy-dark py-4 rounded-xl font-bold hover:bg-[#C9A961] hover:text-white transition-all gap-2">
+            <div className="mt-12 pt-10 border-t border-white/20">
+              <p className="text-gray-300 mb-6 italic">"You aren't just losing money; you're losing the ability to focus on high-value litigation. Let's reclaim that time."</p>
+              <a href="#audit" className="inline-flex items-center justify-center w-full bg-white text-[#1A2B4A] py-4 rounded-xl font-bold hover:bg-[#C9A961] hover:text-white transition-all gap-2">
                 Let's Fix This <ArrowRight size={20} />
               </a>
             </div>
