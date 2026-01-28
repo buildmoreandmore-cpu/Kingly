@@ -45,7 +45,7 @@ const App: React.FC = () => {
     <div className="relative min-h-screen">
       <Header />
       
-      <main>
+      <main className="pb-20 md:pb-0">
         <Hero />
         <Problem />
         <Story />

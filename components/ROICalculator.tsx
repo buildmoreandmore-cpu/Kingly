@@ -15,7 +15,7 @@ const ROICalculator: React.FC = () => {
     <section className="py-24 bg-slate-100">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white rounded-3xl shadow-xl overflow-hidden flex flex-col lg:flex-row">
-          <div className="lg:w-1/2 p-10 lg:p-14 bg-white">
+          <div className="lg:w-1/2 p-6 sm:p-8 lg:p-14 bg-white">
             <h3 className="text-3xl font-bold text-slate-900 mb-8 flex items-center gap-3">
               <TrendingUp className="text-[#C9A961]" />
               Time Savings Calculator
@@ -71,10 +71,10 @@ const ROICalculator: React.FC = () => {
             </div>
           </div>
 
-          <div className="lg:w-1/2 p-10 lg:p-14 bg-[#1A2B4A] text-white flex flex-col justify-center">
+          <div className="lg:w-1/2 p-6 sm:p-8 lg:p-14 bg-[#1A2B4A] text-white flex flex-col justify-center">
             <h4 className="text-xl font-bold mb-10 text-white uppercase tracking-widest">Your Potential Recovery:</h4>
 
-            <div className="space-y-12">
+            <div className="space-y-6 sm:space-y-8 lg:space-y-12">
               <div className="flex items-center gap-6">
                  <div className="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center">
                     <Clock size={32} className="text-[#C9A961]" />

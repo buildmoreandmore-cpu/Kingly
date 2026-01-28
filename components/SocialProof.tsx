@@ -11,9 +11,9 @@ const SocialProof: React.FC = () => {
           <p className="text-xl text-slate-600">Proof that lived experience combined with AI works better than software alone.</p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12">
           {/* Case Study Card */}
-          <div className="bg-slate-900 rounded-3xl p-10 lg:p-14 text-white relative overflow-hidden group">
+          <div className="bg-slate-900 rounded-3xl p-6 sm:p-8 lg:p-14 text-white relative overflow-hidden group">
             <div className="absolute top-0 right-0 p-8 opacity-10 group-hover:scale-110 transition-transform">
               <TrendingUp size={120} />
             </div>
@@ -45,7 +45,7 @@ const SocialProof: React.FC = () => {
 
           {/* Testimonial Quote */}
           <div className="flex flex-col justify-center space-y-8">
-             <div className="p-8 bg-slate-50 rounded-3xl border border-slate-100 relative">
+             <div className="p-4 sm:p-6 lg:p-8 bg-slate-50 rounded-3xl border border-slate-100 relative">
                <Quote className="text-[#C9A961]/20 absolute top-6 left-6" size={60} />
                <div className="relative z-10">
                  <p className="text-xl text-slate-800 font-medium mb-8 leading-relaxed">

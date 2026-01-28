@@ -15,9 +15,9 @@ const Difference: React.FC = () => {
           <table className="w-full text-left">
             <thead>
               <tr className="border-b border-gray-200 bg-gray-50">
-                <th className="p-8 text-xl font-bold text-gray-900">Feature</th>
-                <th className="p-8 text-xl font-bold text-gray-500 hidden sm:table-cell">Traditional Consultants</th>
-                <th className="p-8 text-xl font-bold text-[#C9A961]">Kingly Consulting</th>
+                <th className="p-4 sm:p-6 lg:p-8 text-sm sm:text-base lg:text-xl font-bold text-gray-900">Feature</th>
+                <th className="p-4 sm:p-6 lg:p-8 text-sm sm:text-base lg:text-xl font-bold text-gray-500 hidden sm:table-cell">Traditional Consultants</th>
+                <th className="p-4 sm:p-6 lg:p-8 text-sm sm:text-base lg:text-xl font-bold text-[#C9A961]">Kingly Consulting</th>
               </tr>
             </thead>
             <tbody>
@@ -28,14 +28,14 @@ const Difference: React.FC = () => {
                 ["Implementation", "Leave you to figure it out", "With you every step of the way"]
               ].map(([feature, trad, kingly], idx) => (
                 <tr key={idx} className="border-b border-gray-100 hover:bg-gray-50 transition-colors">
-                  <td className="p-8 font-semibold text-gray-900">{feature}</td>
-                  <td className="p-8 text-gray-500 hidden sm:table-cell">
+                  <td className="p-4 sm:p-6 lg:p-8 font-semibold text-gray-900">{feature}</td>
+                  <td className="p-4 sm:p-6 lg:p-8 text-gray-500 hidden sm:table-cell">
                     <div className="flex items-center gap-2">
                        <XCircle size={18} className="text-red-500" />
                        {trad}
                     </div>
                   </td>
-                  <td className="p-8 text-[#B8923F] font-bold">
+                  <td className="p-4 sm:p-6 lg:p-8 text-[#B8923F] font-bold">
                     <div className="flex items-center gap-2">
                        <ShieldCheck size={18} className="text-green-600" />
                        {kingly}

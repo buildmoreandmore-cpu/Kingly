@@ -65,7 +65,7 @@ const Story: React.FC = () => {
   return (
     <section className="py-24 bg-slate-50 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col lg:flex-row gap-16 items-center">
+        <div className="flex flex-col lg:flex-row gap-8 sm:gap-12 lg:gap-16 items-center">
           <div className="lg:w-1/3">
             <h2 className="text-4xl font-bold text-slate-900 mb-6 leading-tight">
               A Trusted Advocate <br />
@@ -82,7 +82,7 @@ const Story: React.FC = () => {
 
           <div className="lg:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-6">
             {milestones.map((item, idx) => (
-              <div key={idx} className="bg-white p-8 rounded-3xl border border-slate-100 hover:shadow-lg transition-all group">
+              <div key={idx} className="bg-white p-6 sm:p-8 rounded-3xl border border-slate-100 hover:shadow-lg transition-all group">
                 <div className="w-12 h-12 bg-slate-900 text-[#C9A961] flex items-center justify-center rounded-xl mb-6 group-hover:scale-110 transition-transform">
                   {item.icon}
                 </div>
