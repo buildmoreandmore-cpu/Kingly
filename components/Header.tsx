@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Menu, User, ShoppingBag } from 'lucide-react';
+import { Menu, Phone, Mail } from 'lucide-react';
 
 const Header: React.FC = () => {
   return (
@@ -19,8 +19,8 @@ const Header: React.FC = () => {
         </div>
 
         <div className="flex items-center space-x-6">
-          <a href="#" className="text-gray-900 hover:text-[#C9A961]"><User size={22} strokeWidth={2.5} /></a>
-          <a href="tel:7703100670" className="text-gray-900 hover:text-[#C9A961]"><ShoppingBag size={22} strokeWidth={2.5} /></a>
+          <a href="mailto:camisha@kingly-consulting4u.com" className="text-gray-900 hover:text-[#C9A961]"><Mail size={22} strokeWidth={2.5} /></a>
+          <a href="tel:7703100670" className="text-gray-900 hover:text-[#C9A961]"><Phone size={22} strokeWidth={2.5} /></a>
           <button className="text-gray-900 md:hidden"><Menu size={24} strokeWidth={2.5} /></button>
         </div>
       </div>
