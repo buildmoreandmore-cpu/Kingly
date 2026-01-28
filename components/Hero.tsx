@@ -25,20 +25,18 @@ const Hero: React.FC = () => {
       </div>
 
       {/* Image Side */}
-      <div className="w-full md:w-1/2 relative bg-neutral-warm">
-        <div className="absolute inset-0 flex items-end justify-center">
-          <img 
-            src="/camisha-alford.png" 
-            alt="Camisha Alford" 
-            className="h-full w-full object-cover object-top"
-            style={{ imageRendering: 'auto' }}
-          />
-        </div>
-        
+      <div className="w-full md:w-1/2 relative bg-neutral-warm min-h-[60vh] md:min-h-0">
+        <img
+          src="/camisha-alford.png"
+          alt="Camisha Alford"
+          className="absolute inset-0 h-full w-full object-cover object-top"
+          style={{ imageRendering: 'auto' }}
+        />
+
         {/* Bio Tag - Positioned at bottom */}
-        <div className="absolute bottom-8 left-0 bg-[#E8E2D9] p-4 sm:p-6 lg:p-8 w-[85%] max-w-md shadow-sm">
-          <h3 className="text-xl font-bold text-gray-900 mb-1">Camisha Alford</h3>
-          <p className="text-gray-600 text-sm font-medium tracking-wide uppercase">Founder, Kingly Consulting LLC | AI Legal Ops</p>
+        <div className="absolute bottom-4 sm:bottom-8 left-0 bg-[#E8E2D9] p-4 sm:p-6 lg:p-8 w-[90%] sm:w-[85%] max-w-md shadow-sm">
+          <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-1">Camisha Alford</h3>
+          <p className="text-gray-600 text-xs sm:text-sm font-medium tracking-wide uppercase">Founder, Kingly Consulting LLC | AI Legal Ops</p>
         </div>
       </div>
     </section>
