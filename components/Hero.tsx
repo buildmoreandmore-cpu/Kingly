@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
           <div className="flex items-start gap-6 mb-16">
             <div className="w-12 h-[2px] bg-gray-900 mt-4 flex-shrink-0"></div>
             <p className="text-lg lg:text-xl text-gray-800 leading-relaxed font-medium">
-              I'm Camisha Alford—a legal operations expert with 17 years in the trenches. I'll help you stop wasting hours on manual workflows and show you exactly how AI can transform your firm's efficiency.
+              With 17 years of legal operations experience, I help law firms eliminate inefficiencies and implement AI-driven solutions that save time and reduce costs. Let's discuss how to optimize your workflows.
             </p>
           </div>
 
