@@ -39,6 +39,7 @@ const milestones = [
     year: "The Foundation",
     title: "Case Management Trenches",
     desc: "Built deep expertise handling complex files, deadlines, and high-pressure legal environments.",
+    platforms: "Hands-on experience with industry-leading legal platforms including Litify, MyCase, PI Legal, and Nettles.",
     icon: <BriefcaseIcon />
   },
   {
@@ -89,6 +90,9 @@ const Story: React.FC = () => {
                 <span className="text-[#C9A961] font-bold text-sm tracking-widest uppercase mb-2 block">{item.year}</span>
                 <h3 className="text-xl font-bold text-slate-900 mb-4">{item.title}</h3>
                 <p className="text-slate-600 leading-relaxed">{item.desc}</p>
+                {item.platforms && (
+                  <p className="text-sm text-[#C9A961] mt-3 font-medium">{item.platforms}</p>
+                )}
               </div>
             ))}
           </div>
