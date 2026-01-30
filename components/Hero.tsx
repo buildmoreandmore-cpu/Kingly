@@ -8,13 +8,13 @@ const Hero: React.FC = () => {
       <div className="w-full md:w-1/2 flex items-center justify-center p-4 sm:p-6 lg:p-24 bg-white">
         <div className="max-w-xl">
           <h1 className="hims-heading text-3xl sm:text-5xl lg:text-[5.5rem] mb-6 sm:mb-8 lg:mb-12 lowercase">
-            let's streamline <br />your operations
+            ai-driven intelligence <br />for legal ops
           </h1>
 
           <div className="flex items-start gap-3 sm:gap-4 lg:gap-6 mb-8 sm:mb-12 lg:mb-16">
             <div className="w-12 h-[2px] bg-gray-900 mt-4 flex-shrink-0"></div>
             <p className="text-lg lg:text-xl text-gray-800 leading-relaxed font-medium">
-              With 17 years of legal operations experience, I help law firms eliminate inefficiencies and implement AI-driven solutions that save time and reduce costs. Let's discuss how to optimize your workflows.
+              With 17 years of legal operations experience, I help law firms transform document intelligence and automate workflows. From medical records to matter routing—AI that actually understands your work.
             </p>
           </div>
 

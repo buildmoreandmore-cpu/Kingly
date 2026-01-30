@@ -12,7 +12,7 @@ const Problem: React.FC = () => {
               the legal operation <br />bottleneck.
             </h2>
             <p className="text-xl text-gray-800 leading-relaxed font-medium mb-12">
-              Most firms are drowning in manual data entry. It's not a lack of effort—it's a lack of leverage. We provide the leverage that turns operations from a cost center into your secret weapon.
+              Demands held up waiting for medical records. False updates causing confusion. Manual routing leading to overwork and delays. We provide the AI-driven intelligence that eliminates these bottlenecks for good.
             </p>
             <a href="#audit" className="hims-link">Identify Your Drains</a>
           </div>
@@ -23,12 +23,12 @@ const Problem: React.FC = () => {
               <p className="text-xs sm:text-sm uppercase font-bold tracking-widest text-gray-500">weekly average <br />hours saved</p>
             </div>
             <div className="bg-white aspect-square flex flex-col items-center justify-center p-5 sm:p-6 lg:p-8 text-center shadow-sm">
-              <span className="hims-heading text-4xl mb-4">40%</span>
-              <p className="text-xs sm:text-sm uppercase font-bold tracking-widest text-gray-500">faster case <br />turnaround</p>
+              <span className="hims-heading text-4xl mb-4">0</span>
+              <p className="text-xs sm:text-sm uppercase font-bold tracking-widest text-gray-500">false updates <br />guaranteed</p>
             </div>
             <div className="bg-white aspect-square flex flex-col items-center justify-center p-5 sm:p-6 lg:p-8 text-center shadow-sm">
-              <span className="hims-heading text-4xl mb-4">2x</span>
-              <p className="text-xs sm:text-sm uppercase font-bold tracking-widest text-gray-500">team output <br />capacity</p>
+              <span className="hims-heading text-4xl mb-4">Auto</span>
+              <p className="text-xs sm:text-sm uppercase font-bold tracking-widest text-gray-500">smart matter <br />routing</p>
             </div>
             <div className="bg-[#C9A961] aspect-square flex flex-col items-center justify-center p-5 sm:p-6 lg:p-8 text-center">
               <span className="hims-heading text-4xl mb-4 text-white">0</span>

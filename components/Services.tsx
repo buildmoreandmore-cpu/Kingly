@@ -3,19 +3,19 @@ import React from 'react';
 
 const services = [
   {
-    title: "case file automation",
-    description: "Eliminate repetitive data entry and keep all files current automatically. Our AI systems are built by a case manager, for case managers.",
-    tag: "15+ hours back weekly"
+    title: "medical record intelligence",
+    description: "Instantly condense medical records, billing, and deposition transcripts into structured summaries. No more holding up demands waiting for records.",
+    tag: "Never delay demands again"
   },
   {
-    title: "workflow optimization",
-    description: "Identify bottlenecks and streamline your process across departments. 40-60% faster case turnaround guaranteed.",
-    tag: "Scale 2-3x output"
+    title: "critical date flagging",
+    description: "Automatically identify and flag critical dates and parties from every document. Eliminate confusion and keep your team aligned.",
+    tag: "Zero missed deadlines"
   },
   {
-    title: "ai integration",
-    description: "Tools designed for practice, not just theory. Fits perfectly into your existing systems with zero friction.",
-    tag: "ROI in 60 days"
+    title: "smart matter routing",
+    description: "Automatically categorize new matters and route to the right team member by urgency and expertise. Stop the manual shuffle.",
+    tag: "End overworking"
   }
 ];
 
