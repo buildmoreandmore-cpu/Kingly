@@ -12,11 +12,13 @@ const Header: React.FC = () => {
   return (
     <nav className="sticky top-0 z-50 bg-white border-b border-gray-100 py-6">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12 flex justify-between items-center">
-        <div className="flex items-center">
-          <span className="text-xl sm:text-2xl font-extrabold tracking-tighter lowercase">
-            kingly<span className="text-[#C9A961]">consulting</span>
-          </span>
-        </div>
+        <a href="#" className="flex items-center">
+          <img
+            src="/kingly-logo.png"
+            alt="Kingly Consulting"
+            className="h-10 sm:h-12 lg:h-14 w-auto"
+          />
+        </a>
 
         <div className="hidden md:flex items-center space-x-12">
           <a href="#services" className="text-[13px] font-bold uppercase tracking-widest text-gray-900 hover:text-[#C9A961] transition-colors">expertise</a>
