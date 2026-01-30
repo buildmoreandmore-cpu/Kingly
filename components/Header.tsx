@@ -16,7 +16,7 @@ const Header: React.FC = () => {
           <img
             src="/kingly-logo.png"
             alt="Kingly Consulting"
-            className="h-16 sm:h-20 lg:h-24 w-auto"
+            className="h-24 sm:h-32 lg:h-40 w-auto"
           />
         </a>
 
