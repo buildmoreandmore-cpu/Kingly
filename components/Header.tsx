@@ -10,13 +10,13 @@ const Header: React.FC = () => {
   };
 
   return (
-    <nav className="sticky top-0 z-50 bg-white border-b border-gray-100 py-6">
+    <nav className="sticky top-0 z-50 bg-white border-b border-gray-100 py-3 sm:py-4">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12 flex justify-between items-center">
         <a href="#" className="flex items-center">
           <img
             src="/kingly-logo.png"
             alt="Kingly Consulting"
-            className="h-10 sm:h-12 lg:h-14 w-auto"
+            className="h-16 sm:h-20 lg:h-24 w-auto"
           />
         </a>
 
