@@ -25,7 +25,7 @@ const Services: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
         <div className="flex flex-col lg:flex-row justify-between items-end mb-24">
           <div className="max-w-2xl">
-            <h2 className="hims-heading text-4xl lg:text-6xl lowercase mb-4 sm:mb-6 lg:mb-8">how we help law firms win time back</h2>
+            <h2 className="hims-heading text-4xl lg:text-6xl lowercase mb-4 sm:mb-6 lg:mb-8">shifting your firm from reactive legal work to proactive business management—reclaiming lapsed clients and eliminating the internal inefficiencies that drive churn</h2>
             <p className="text-lg text-gray-600">Most consultants have never managed a case. I spent 17 years doing exactly what your team does every day.</p>
           </div>
           <div className="hidden lg:block">
