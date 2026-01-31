@@ -9,13 +9,11 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 lg:gap-12 mb-20">
           <div className="col-span-1 lg:col-span-2">
             <div className="mb-6">
-              <div className="bg-white rounded-lg p-3 inline-block">
-                <img
-                  src="/kingly-logo.png"
-                  alt="Kingly Consulting"
-                  className="h-40 sm:h-52 lg:h-64 w-auto"
-                />
-              </div>
+              <img
+                src="/kingly-logo.png"
+                alt="Kingly Consulting"
+                className="h-28 sm:h-36 lg:h-44 w-auto"
+              />
               <span className="block mt-3 text-xs tracking-widest text-slate-500 uppercase font-semibold">Legal Operations & AI Strategy</span>
             </div>
             <p className="text-slate-400 max-w-md mb-8 leading-relaxed">
