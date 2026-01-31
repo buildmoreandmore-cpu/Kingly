@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
               built on real-world legal operations expertise.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-[#C9A961] transition-all">
+              <a href="https://www.linkedin.com/in/camisha-alford-a3264828" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-[#C9A961] transition-all">
                 <Linkedin size={20} />
               </a>
             </div>
