@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
           <div className="flex items-start gap-3 sm:gap-4 lg:gap-6 mb-8 sm:mb-12 lg:mb-16">
             <div className="w-12 h-[2px] bg-gray-900 mt-4 flex-shrink-0"></div>
             <p className="text-lg lg:text-xl text-gray-800 leading-relaxed font-medium">
-              With 17 years of legal operations experience, I help law firms transform document intelligence and automate workflows. From medical records to matter routing—AI that actually understands your work.
+              With deep legal operations experience, I help law firms transform document intelligence and automate workflows. From medical records to matter routing—AI that actually understands your work.
             </p>
           </div>
 

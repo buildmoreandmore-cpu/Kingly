@@ -8,7 +8,7 @@ const Difference: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 text-white">The Kingly Difference</h2>
-          <p className="text-[#C9A961] text-xl font-light">"Most AI consultants have never managed a case file. I spent 17 years doing it."</p>
+          <p className="text-[#C9A961] text-xl font-light">"Most AI consultants have never managed a case file. I've lived it."</p>
         </div>
 
         <div className="max-w-4xl mx-auto overflow-hidden rounded-3xl border border-white/20 bg-white shadow-2xl">

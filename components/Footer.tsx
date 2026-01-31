@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
             </div>
             <p className="text-slate-400 max-w-md mb-8 leading-relaxed">
               Specializing in AI-powered case file automation and workflow optimization 
-              built on 17 years of real-world legal experience.
+              built on real-world legal operations expertise.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-[#C9A961] transition-all">
