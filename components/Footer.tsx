@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
               <img
                 src="/kingly-logo.png"
                 alt="Kingly Consulting"
-                className="h-28 sm:h-36 lg:h-44 w-auto"
+                className="h-28 sm:h-36 lg:h-44 w-auto brightness-0 invert"
               />
               <span className="block mt-3 text-xs tracking-widest text-slate-500 uppercase font-semibold">Legal Operations & AI Strategy</span>
             </div>
