@@ -16,6 +16,11 @@ const services = [
     title: "smart matter routing",
     description: "Automatically categorize new matters and route to the right team member by urgency and expertise. Stop the manual shuffle.",
     tag: "End overworking"
+  },
+  {
+    title: "drafting demands",
+    description: "Generate demand drafts directly from structured medical summaries and case data. Spend less time writing and more time negotiating stronger settlements.",
+    tag: "Demands drafted faster"
   }
 ];
 
@@ -33,7 +38,7 @@ const Services: React.FC = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-12 lg:gap-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12 lg:gap-24">
           {services.map((service, idx) => (
             <div key={idx} className="group cursor-pointer">
               <div className="w-full h-1 bg-gray-200 mb-10 group-hover:bg-[#C9A961] transition-colors"></div>
